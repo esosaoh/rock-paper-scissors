@@ -38,8 +38,6 @@ function playRound(humanChoice, computerChoice, score){
     }
 }
 
-
-
 function playGame(){
     let score = {humanScore: 0, computerScore: 0}
     for (let round = 0; round < 5; round++){
